@@ -119,6 +119,14 @@
                     $('.msg').html('')
                     $("#name").val("")
                 })
+                $(window).scroll(function(){
+                    var scroll = $(window).scrollTop();
+                    if(scroll < 300){
+                        $('.fixed-top').css('background', 'transparent');
+                    } else{
+                        $('.fixed-top').css('background', 'rgb(235, 186, 180, 0.9)');
+                    }
+                });
             })
 
             function getTicket() {

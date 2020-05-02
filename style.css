@@ -23,7 +23,8 @@
   
   /* Change the link color to #111 (black) on hover */
   li a:hover, .phone a:hover {
-    color: rgb(216, 240, 179)
+    color: rgb(216, 240, 179);
+    /* background-color: rgba(23, 162, 184, 0.9); */
   } */
 
   nav {
