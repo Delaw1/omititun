@@ -11,7 +11,7 @@
 
     <body class="">
         <div class="banner">
-            <nav class="navbar fixed-top navbar-expand-lg">
+            <nav class="navbar fixed-top navbar-expand-sm ">
                 <a class="navbar-brand" href="#">
                     <img src="./images/logo.jpg" width="40" height="40" alt="">
                 </a>
