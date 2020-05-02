@@ -1,0 +1,93 @@
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 2;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover, .phone a:hover {
+    color: rgb(216, 240, 179)
+  } */
+
+  nav {
+      padding: 5px 20px;
+  }
+  li {
+    float: left;
+    font-size: 20px;
+  }
+  li a, .phone a {
+    color: #fff;
+    text-align: center;
+    padding: 14px 30px !important;
+    text-decoration: none;
+  }
+
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/logo.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .main {
+      font-size: 100px;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .content-1 {
+      padding: 50px;
+      font-size: 50px;
+      text-align: center;
+      color: rgb(221, 98, 84);
+  }
+
+  .content-2 {
+    padding: 50px;
+    background-color: rgb(235, 186, 180);
+  }
+
+  .footer {
+      display: flex;
+      height: 70px;
+      background-color: rgb(65, 58, 58);
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+  }
+  .inner-content {
+      padding: 30px;
+  }
